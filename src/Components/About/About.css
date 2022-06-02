@@ -1,0 +1,90 @@
+.blend{
+    /* background-image: url(face.jpg); */
+    background-color:  rgba(254, 125, 0, 0.68);
+    /* background-blend-mode: multiply;
+    mix-blend-mode:multiply ; */
+    width: 100%;
+    height: 76%;
+    /* margin-bottom: 30px; */
+}
+/* .adds{
+    padding:40px;
+} */
+.abo{
+    padding: 42px;
+}
+.qwer{
+    padding: 66px 24px;
+}
+.ga{
+    gap: 12rem;
+}
+.vv{
+    padding: 21px
+}
+.mm{
+    margin-bottom: 40px;
+}
+.misi{
+    padding: 29px 0px
+}
+/* .h5, h5{
+    text-align: center;
+
+}
+.h6, h6{
+    text-align: center;
+} */
+.hide{
+    display: none;
+}
+.myDIV:hover + .hide{
+    display: block;
+
+}
+
+.profile {
+    cursor: pointer;
+    position: relative;
+}
+.profile:hover > .overlay{
+display: block;
+}
+
+.profile img {
+    height: 196px;
+    width: 196px;
+    border-radius: 50%;
+    transition: all 2s;
+    transition-timing-function: ease-in;
+}
+.profile .overlay {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.447);
+    height: 196px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 196px;
+    border-radius: 50%;
+    display: none;
+
+}
+
+.ln-icn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+    transition: all 2s;
+    transition-timing-function: ease-in;
+    z-index: 10;
+}
+.profile-link {
+    text-decoration: none;
+    color: black;
+}
+.profile-link:hover{
+    color: black;
+}
