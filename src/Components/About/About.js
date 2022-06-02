@@ -82,7 +82,7 @@ maintaining long lasting relationship with people and technology and deliverfunc
  </div>
  <div className='container'>
    <div className='row'>
-     <h4 className='text-start'>Meet Our Team</h4>
+     <h4 className='text-start'>Meet Our Teams</h4>
   {profiles.map((profile, index)=>(
     <a href={profile.url} target='_blank' className='col-lg-4 col-6 text-center profile-link'>
       <div className=' profile '>
